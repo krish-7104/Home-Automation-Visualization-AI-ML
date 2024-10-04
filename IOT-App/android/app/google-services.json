@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1082171851425",
+    "firebase_url": "https://home-automation-fecb5-default-rtdb.firebaseio.com",
+    "project_id": "home-automation-fecb5",
+    "storage_bucket": "home-automation-fecb5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1082171851425:android:b33cdddbbe57d50ddea6e0",
+        "android_client_info": {
+          "package_name": "com.krish.homeautomation"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDERqzdEiGHBw3Ly4AoHs2C-wdJcxMSHik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -22,13 +22,13 @@ ChartJS.register(
   Legend
 );
 
-const HumidityChart = ({ labels, humidityData }) => {
+const HumidityChart = ({ labels, humidityData, type }) => {
   const formattedLabels = labels.map((label) => {
     return formateDate(label);
   });
 
   const chartData = {
-    labels: formattedLabels,
+    labels: type === "simple" ? labels : formattedLabels,
     datasets: [
       {
         label: "Humidity",

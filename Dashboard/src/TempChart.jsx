@@ -22,13 +22,13 @@ ChartJS.register(
   Legend
 );
 
-const TemperatureChart = ({ labels, temperatureData }) => {
+const TemperatureChart = ({ labels, temperatureData, type }) => {
   const formattedLabels = labels.map((label) => {
     return formateDate(label);
   });
 
   const chartData = {
-    labels: formattedLabels,
+    labels: type === "simple" ? labels : formattedLabels,
     datasets: [
       {
         label: "Temperature",
